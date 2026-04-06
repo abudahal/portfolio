@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Header -->
+  <header>
+    <div class="hero">
+      <img src="3_Original.png" alt="Profile Photo" class="profile-pic">
+      <h1>Hi, I am Abiral</h1>
+      <p>Aspiring cybersecurity professional | Student</p>
+    </div>
+  </header>
+
+  <!-- Navigation -->
+  <nav>
+    <div class="menu-toggle" id="menu-toggle">☰</div>
+    <ul id="menu">
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#academics">Academics</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- Skills Section -->
+  <section id="skills">
+    <h2>My Skills</h2>
+    <div class="skills-container">
+      <div class="skill-card">HTML & CSS</div>
+      <div class="skill-card">JavaScript</div>
+      <div class="skill-card">Network Security</div>
+      <div class="skill-card">Penetration Testing</div>
+    </div>
+  </section>
+
+  <!-- Academics Section -->
+  <section id="academics">
+    <h2>Academic Background</h2>
+    <div class="academics-grid">
+      <div class="academic-card">
+        <h3>Bachelor in Computer Science and Information Technology</h3>
+        <p>Pokhara University (2025 - Present)</p>
+      </div>
+      <div class="academic-card">
+        <h3>High School</h3>
+        <p>Uniglobe Ss college (2023 - 2025)</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact">
+    <h2>Contact Me</h2>
+    <form id="contact-form">
+      <input type="text" placeholder="Your Name" required>
+      <input type="email" placeholder="Your Email" required>
+      <textarea placeholder="Your Message" required></textarea>
+      <button type="submit">Send</button>
+    </form>
+    <p id="form-message"></p>
+  </section>
+
+  
+
+  <script src="script.js"></script>
+</body>
+</html>
